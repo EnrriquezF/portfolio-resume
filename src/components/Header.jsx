@@ -11,7 +11,7 @@ export default function Header() {
                     <ul>
                         <li><a href="https://www.linkedin.com/in/florencia-enrriquez-34bb61234/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
                         <li><a href="https://github.com/EnrriquezF" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                        <li><a href="https://drive.google.com/file/d/1ucuuYZoHSzgldNPJ2KeKyGd3L3eLikYx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1k2XMJ0MmgiQJUih-awxf4JVv-GeaVA2j/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
                         <li>Berazategui, Buenos Aires, Argentina</li>
                     </ul>
                 </nav>
