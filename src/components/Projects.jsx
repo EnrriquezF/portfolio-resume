@@ -43,8 +43,8 @@ export default function Projects() {
             <p>
               A portfolio webpage to show my projects. Made with React.js+Vite. Designed in Figma, based on a beige palette.
             </p>
-                <a href="#"  target="_blank" rel="noopener noreferrer"> Website Link</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">GitHub Repository Link</a>
+                <a href="https://enrriquez-florencia-portfolio.vercel.app/"  target="_blank" rel="noopener noreferrer"> Website Link</a>
+                <a href="https://github.com/EnrriquezF/portfolio-resume" target="_blank" rel="noopener noreferrer">GitHub Repository Link</a>
         </article>
       </>
       }
