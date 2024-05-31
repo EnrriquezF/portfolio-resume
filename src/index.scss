@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Istok+Web&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-color: #BFB5AB;
+    height: 40vh;
+    width: 100%;
+}
+
+.header-container {
+    padding: 4vh 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 32vh;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 76px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+header h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 5px;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: rgb(78, 69, 40);
+}
+
+li {
+    padding: 5px 30px;
+    letter-spacing: 1px;
+}
+
+section {
+    width: 90%;
+    padding: 0px 5% 35px;
+}
+
+section h2{
+    font-family: "Istok Web", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}section p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 95%;
+    padding: 3px 2.5%;
+}
+
+article {
+    padding-bottom: 3px;
+}
+
+#about button, #projects button, #skills button, #licenses button{
+    box-shadow: 0px 1px 0.5px #aba29a;
+    background-color: white;
+    border: 1px solid #fff;
+    font-family: "Istok Web", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+}#about button:hover, #projects button:hover, #skills button:hover, #licenses button:hover{
+    transition: 150ms;
+    box-shadow: 0px 1px 0.5px #aba29a;
+    background-color: #ede8e4;
+    border:1px solid #ede8e4;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 10px 2px;
+}
+
+#projects a, #licenses a {
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #aba29a;
+    border: 1px solid #aba29a;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    margin-bottom: 5px;
+}#projects a:hover, #licenses a:hover {
+    background-color: #938981;
+    border: 1px solid #938981;
+}
+
+#projects article, #licenses article{
+    margin-bottom: 15px;
+}#projects article:hover, #licenses article:hover {
+    transition: 250ms;
+    background-color: #efece9;
+    border-radius: 5px;
+}
+
+#projects h3, #projects h4, #licenses h3, #licenses h4{
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+    background-color: #ede8e4;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #3f3833;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 1320px) {
+    h1 {
+        font-size: 60px;
+    }
+    header h2 {
+        font-size: 28px;
+    }
+    header ul {
+        padding: 10px 5px;
+    }
+
+    header li {
+        padding: 1px 20px;
+    }
+    
+    footer {
+        font-weight: normal;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    header {
+        height: auto;
+    }
+    header h2 {
+        font-size: 16px;
+    }
+    header ul {
+        padding: 10px 5px;
+    }
+
+    header li {
+        padding: 1px 20px;
+    }
+    
+    footer {
+        font-weight: normal;
+    }
+
+    header img {
+        height: 208px;
+        width: 208px;
+    }
+}
+
+@media (max-width: 860px) {
+    h1 {
+        font-size: 36px;
+    }
+    header h2 {
+        font-size: 16px;
+    }
+    header ul {
+        padding: 10px 5px;
+    }
+
+    header li {
+        padding: 1px 20px;
+    }
+    
+    footer {
+        font-weight: normal;
+    }
+
+    header img {
+        height: 208px;
+        width: 208px;
+    }
+}
+
+@media (max-width: 860px) and (orientation:landscape) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .header-container {
+        width: 95%;
+        padding: 2vh 2.5%;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+    header ul {
+        padding: 10px 5px;
+    }
+
+    header li {
+        padding: 1px 20px;
+    }
+    
+    footer {
+        font-weight: normal;
+    }
+
+    header img {
+        height: 208px;
+        width: 208px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 48px;
+        padding-bottom: 5px;
+    }
+
+    .header-container {
+        width: 95%;
+        padding: 2vh 2.5%;
+        flex-direction: column;
+    }
+
+    header h2 {
+        font-size: 22px;
+    }
+    header ul {
+        padding: 10px 5px 25px;
+    }
+
+    header li {
+        padding: 1px 20px;
+    }
+    
+    footer {
+        position: relative;
+        height: auto;
+        padding: 25px 0px;
+    }
+
+    header img {
+        height: 150px;
+        width: 150px;
+    }
+}
