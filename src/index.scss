@@ -14,8 +14,9 @@ body {
 
 header {
     background-color: #BFB5AB;
-    height: 40vh;
+    min-height: 40vh;
     width: 100%;
+    max-height: auto;
 }
 
 .header-container {
@@ -91,22 +92,23 @@ article {
 }
 
 #about button, #projects button, #skills button, #licenses button{
-    box-shadow: 0px 1px 0.5px #aba29a;
-    background-color: white;
-    border: 1px solid #fff;
+    box-shadow: 0px 0px 0px #aba29a;
+    background-color: #ede8e4;
+    border:1px solid #ede8e4;
     font-family: "Istok Web", sans-serif;
     font-size: 32px;
     font-weight: 400;
     font-style: normal;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 2px;
     text-align: center;
     margin-top: 5px;
 }#about button:hover, #projects button:hover, #skills button:hover, #licenses button:hover{
     transition: 150ms;
-    box-shadow: 0px 1px 0.5px #aba29a;
-    background-color: #ede8e4;
-    border:1px solid #ede8e4;
+    /* box-shadow: 0px 1px 0.5px #aba29a; */
+    color: #ebebeb;
+    background-color: #938981;
+    border:1px solid #938981;
 }
 
 #skills ul {
@@ -154,6 +156,7 @@ footer {
     background-color: #ede8e4;
     position: fixed;
     bottom: 0;
+    border-top: 1px solid #fff;
 }
 
 footer a {
@@ -267,6 +270,27 @@ footer a {
     }
 }
 
+@media (max-width: 713px){
+    .header-container {
+        width: 95%;
+        padding: 4vh 2.5%;
+    }
+}
+
+@media (max-width: 525px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    header h2 {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 48px;
+        padding-bottom: 5px;
+    }
+}
+
 @media (max-width: 480px) {
     h1 {
         font-size: 48px;
@@ -299,5 +323,18 @@ footer a {
     header img {
         height: 150px;
         width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    header h2 {
+        font-size: 14px;
+        text-align: center;
     }
 }
